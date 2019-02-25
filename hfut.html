@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>合肥工业大学宣城校区</title>
+    <style>
+    h1{font-size: 40px;text-align: center;color: rgb(0,0,0);}
+    p{margin: 0 260px}
+    section{margin: 30px 0px;}
+    div{margin:0 300px;}
+    div ul li a{font-size:25px;text-decoration: none;}
+    nav{width: 1270px;height: 50px;background-color: rgb(0,0,0);margin: auto;}
+    nav ul{margin: 0;padding: 0;}
+    nav ul li{display: inline-block;list-style: none;text-align: center;}
+    nav ul li a{text-decoration: none;color: rgb(255,255,255);padding:9px;font:1.5em/50px microsoft yahei;cursor: pointer;margin:0 120px;}
+    nav ul li a:hover{background-color: rgb(190,190,190);color: rgb(0,0,0);}
+    body{background-image: url(./back.png);background-repeat: repeat;}
+    img{width: 1270px;heght:100px;}
+        
+    </style>
+</head>
+<body>
+    <h1>H   F   U   T</h1>
+    <img src="./hfut.PNG" alt="图片不能正常显示">
+    <nav>
+        <ul>
+            <li><a href="#123">教务管理系统登陆</a></li>
+            <li><a href="#124">hfut图书馆</a></li>
+            <li><a href="#125">hfut教务办公室</a></li>
+            
+        </ul>
+    </nav>
+    <a id="123"></a><h2>教务管理系统登陆：</h2>
+    <form action="http://222.195.8.201/pass.asp" method="post">
+            <p>请选择：</p>
+            <div>
+
+                学生<input type="radio" value="student" checked name="UserStyle">               
+                教师<input type="radio" name="UserStyle" value="teacher">
+                
+                管理<input type="radio" name="UserStyle" value="OtherUser"><br>
+           
+            
+                <section>
+                    账 号 <input type="text" name="user" size="16" value=""  maxlength="12" autocomplete="off" required="required"><br>  
+                </section>
+                <section>
+                    密 码 <input type="password" name="password" size="16" value="" maxlength="12" required="required"><br>    
+                </section>
+                                   
+            
+                           <input type="submit" value="登   录">
+
+            </div>
+    </form> 
+
+    <a id="124"></a><h2>hfut图书馆：</h2>
+    <div>
+        <ul>
+        <li><a href="http://lib.hfut.edu.cn">hfut图书馆</a></li>
+    </ul>
+    </div>
+    <a id="125"></a><h2>hfut教务办公室：</h2>
+    <div>
+        <ul>
+        <li><a href="http://xcjwb.hfut.edu.cn">hfut教务办公室</a></li>
+    </ul>
+    </div>
+    
+    
+        
+
+</body>
+</html>
